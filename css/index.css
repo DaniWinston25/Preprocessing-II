@@ -261,23 +261,25 @@ hr {
   padding-right: 1%;
   padding-left: 0;
 }
-.home .content-destination {
+.content-destination {
   width: 75%;
   margin: 0 auto 30px;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
 }
-.home .content-destination img {
+.content-destination img {
   border-radius: 10px;
 }
-.home .content-pick {
+.content-destination .content-pick {
   padding-top: 30px;
   border-top: 2px dashed #C0C0C0;
-  display: flex;
-  justify-content: space-between;
 }
-.home .content-pick .btn {
-  background-color: white;
+.destination {
+  width: 30%;
+  margin-bottom: 30px;
+}
+.destination .btn {
+  background-color: #17A2B8;
   margin: 10px 20px;
   padding: 5px;
   text-align: center;
@@ -286,9 +288,5 @@ hr {
   height: 25px;
   font-size: 1.5rem;
   border-radius: 10px;
-  color: #17A2B8;
-}
-.home .content-pick .destination {
-  width: 30%;
-  margin-bottom: 30px;
+  color: white;
 }
