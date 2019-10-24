@@ -222,6 +222,16 @@ img {
 hr {
   color: #C0C0C0;
 }
+.middle-content {
+  display: flex;
+  flex-direction: row;
+}
+.middle-content .text-content {
+  width: 50%;
+}
+.middle-content img {
+  border-radius: 3%;
+}
 .home .content-section {
   margin: 30px 0;
   display: flex;
@@ -238,10 +248,6 @@ hr {
 }
 .home .content-section .img-content img {
   border-radius: 10px;
-}
-.home .middle-content {
-  display: flex;
-  flex-direction: row-reverse;
 }
 .home .inverse-content {
   padding-bottom: 30px;

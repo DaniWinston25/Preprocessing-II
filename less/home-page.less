@@ -22,6 +22,18 @@
 hr {
   color: @silver;
 }
+.middle-content{
+  display:flex;
+  flex-direction: row;
+  .text-content{
+    width: 50%;
+  }
+  img{
+    border-radius: 3%;
+  }
+}
+
+
 .home {
   .content-section {
     margin: 30px 0;
@@ -45,14 +57,11 @@ hr {
     }
     
   }
-  .middle-content{
-    display:flex;
-    flex-direction: row-reverse;
-  }
 
   .inverse-content {
     padding-bottom: 30px;
     border-bottom: 2px dashed @navigation-border;
+  
 
     .text-content {
       padding-left: 1%;
