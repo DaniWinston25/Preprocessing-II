@@ -202,6 +202,18 @@ img {
   font-size: 4rem;
   color: black;
 }
+.fun-bus {
+  display: flex;
+  flex-direction: column;
+}
+.fun-bus header {
+  font-family: "Indie Flower", cursive;
+  font-size: 4rem;
+  color: black;
+}
+.fun-bus .img-bus {
+  padding: 3px;
+}
 hr {
   color: silver;
 }
@@ -237,6 +249,8 @@ hr {
 .home .content-destination {
   width: 75%;
   margin: 0 auto 30px;
+  display: flex;
+  justify-content: center;
 }
 .home .content-destination img {
   border-radius: 10px;
