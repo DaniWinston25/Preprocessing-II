@@ -211,6 +211,10 @@ img {
   font-size: 4rem;
   color: #212529;
 }
+.fun-bus p {
+  display: flex;
+  justify-content: stretch;
+}
 .fun-bus .img-bus {
   padding: 3px;
 }
