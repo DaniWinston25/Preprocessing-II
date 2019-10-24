@@ -171,16 +171,17 @@ img {
 .top-section {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 .top-section nav {
-  justify-content: flex-end;
+  display: flex;
 }
 .top-section nav a {
+  display: flex;
   font-size: 1.6rem;
   text-decoration: none;
   color: #212529;
-  justify-items: space-evenly;
+  padding: 2%;
 }
 .footer {
   width: 100%;
@@ -238,6 +239,10 @@ hr {
 .home .content-section .img-content img {
   border-radius: 10px;
 }
+.home .middle-content {
+  display: flex;
+  flex-direction: row-reverse;
+}
 .home .inverse-content {
   padding-bottom: 30px;
   border-bottom: 2px dashed #C0C0C0;
@@ -264,6 +269,18 @@ hr {
   border-top: 2px dashed #C0C0C0;
   display: flex;
   justify-content: space-between;
+}
+.home .content-pick .btn {
+  background-color: white;
+  margin: 10px 20px;
+  padding: 5px;
+  text-align: center;
+  cursor: pointer;
+  width: 120px;
+  height: 25px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  color: #17A2B8;
 }
 .home .content-pick .destination {
   width: 30%;

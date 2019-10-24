@@ -1,6 +1,5 @@
 .top-section {
-  display: flex;
-  flex-direction: row;
+ .displayflex(row);
   header {
     font-family: @funbusfont;
     font-size: 4rem;
@@ -8,15 +7,13 @@
   }
 }
 .fun-bus{
-  display:flex;
-  flex-direction: column;
+  .displayflex(column);
   header{
   font-family: @funbusfont;
   font-size: 4rem;
   color: @shark;
   }
-  p{ display:flex;
-    justify-content: stretch;
+  p{ .displayjustify(stretch);
   }
   .img-bus{
     padding: 3px;
@@ -35,6 +32,7 @@ hr {
     .text-content {
       width: 48%;
       padding-right: 1%;
+    
     }
 
     .img-content {
@@ -45,6 +43,11 @@ hr {
         border-radius: 10px;
       }
     }
+    
+  }
+  .middle-content{
+    display:flex;
+    flex-direction: row-reverse;
   }
 
   .inverse-content {
@@ -78,12 +81,23 @@ hr {
     border-top: 2px dashed @navigation-border;
     display: flex;
     justify-content: space-between;
-
+    .btn {
+      background-color: white;
+      margin: 10px 20px;
+      padding: 5px;
+      text-align: center;
+      cursor: pointer;
+      width: 120px;
+      height: 25px;
+      font-size: 1.5rem;
+      border-radius: 10px;
+      color:@button-bg;
+    }
     .destination {
       width: 30%;
       margin-bottom: 30px;
-
       
     }
   }
+ 
 } // home
