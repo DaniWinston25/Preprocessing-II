@@ -1,40 +1,41 @@
 .top-section {
- .displayflex(row);
+  .displayflex(row);
   header {
     font-family: @funbusfont;
     font-size: 4rem;
     color: @shark;
   }
 }
-.fun-bus{
+.fun-bus {
   .displayflex(column);
-  header{
-  font-family: @funbusfont;
-  font-size: 4rem;
-  color: @shark;
+  header {
+    font-family: @funbusfont;
+    font-size: 4rem;
+    color: @shark;
   }
-  p{ .displayjustify(stretch);
+  p {
+    .displayjustify(stretch);
   }
 }
+
 hr {
   color: @silver;
 }
 
-.img-bus{
+.img-bus {
   display: flex;
   justify-content: center;
 }
-.middle-content{
-  display:flex;
+.middle-content {
+  display: flex;
   flex-direction: row;
-  .text-content{
+  .text-content {
     width: 50%;
   }
-  img{
+  img {
     border-radius: 3%;
   }
 }
-
 
 .home {
   .content-section {
@@ -46,7 +47,6 @@ hr {
     .text-content {
       width: 48%;
       padding-right: 1%;
-    
     }
 
     .img-content {
@@ -57,13 +57,11 @@ hr {
         border-radius: 10px;
       }
     }
-    
   }
 
   .inverse-content {
     padding-bottom: 30px;
     border-bottom: 2px dashed @navigation-border;
-  
 
     .text-content {
       padding-left: 1%;
@@ -80,33 +78,31 @@ hr {
 .content-destination {
   width: 75%;
   margin: 0 auto 30px;
- display: flex;
- flex-direction: column;
+  display: flex;
+  flex-direction: column;
   img {
     border-radius: 10px;
   }
- 
 }
 .content-pick {
   padding-top: 30px;
-  border-top: 2px dashed @navigation-border; 
+  border-top: 2px dashed @navigation-border;
   display: flex;
   flex-direction: row;
-.destination {
-  width: 30%;
-  margin-bottom: 30px;
-  .btn {
-    background-color: @button-bg;
-    margin: 10px 20px;
-    padding: 5px;
-    text-align: center;
-    cursor: pointer;
-    width: 120px;
-    height: 25px;
-    font-size: 1.5rem;
-    border-radius: 10px;
-    color:white;
+  .destination {
+    width: 30%;
+    margin-bottom: 30px;
+    .btn {
+      background-color: @button-bg;
+      margin: 10px 20px;
+      padding: 5px;
+      text-align: center;
+      cursor: pointer;
+      width: 120px;
+      height: 25px;
+      font-size: 1.5rem;
+      border-radius: 10px;
+      color: white;
     }
   }
 }
-
