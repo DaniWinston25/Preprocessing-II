@@ -216,11 +216,12 @@ img {
   display: flex;
   justify-content: stretch;
 }
-.fun-bus .img-bus {
-  padding: 3px;
-}
 hr {
   color: #C0C0C0;
+}
+.img-bus {
+  display: flex;
+  justify-content: center;
 }
 .middle-content {
   display: flex;
@@ -270,15 +271,17 @@ hr {
 .content-destination img {
   border-radius: 10px;
 }
-.content-destination .content-pick {
+.content-pick {
   padding-top: 30px;
   border-top: 2px dashed #C0C0C0;
+  display: flex;
+  flex-direction: row;
 }
-.destination {
+.content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
 }
-.destination .btn {
+.content-pick .destination .btn {
   background-color: #17A2B8;
   margin: 10px 20px;
   padding: 5px;
